@@ -1,5 +1,6 @@
 import pytest
 from src.applications.ui.github_ui import GithubUi
+from src.applications.api.github_api import GithubApiClient
 from selenium import webdriver
 
 
@@ -12,3 +13,10 @@ def github_ui_app():
     yield githubui_app
     # 2. Poststep - close the application
     githubui_app.close()
+
+
+@pytest.fixture
+def github_api_client():
+    github_api = GithubApiClient()
+
+    yield github_api
