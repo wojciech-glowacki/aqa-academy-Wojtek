@@ -1,0 +1,19 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+2024/06/03,736,Request 1 - second user,200,OK,Thread Group 1-1,text,true,,2376,133,2,2,https://gorest.co.in/public/v2/users/,735,0,86
+2024/06/03,348,Request 1 - second user,200,OK,Thread Group 1-2,text,true,,2378,133,2,2,https://gorest.co.in/public/v2/users/,348,0,86
+2024/06/03,249,Request 2 - access second user by id = 6943044,200,OK,Thread Group 1-1,text,true,,1076,140,2,2,https://gorest.co.in/public/v2/users/6943044,249,0,0
+2024/06/03,266,Request 2 - access second user by id = 6943044,200,OK,Thread Group 1-2,text,true,,1076,140,2,2,https://gorest.co.in/public/v2/users/6943044,266,0,0
+2024/06/03,241,Request 3 - open second user post page,200,OK,Thread Group 1-1,text,true,,2020,146,2,2,https://gorest.co.in/public/v2/users/6943044/posts,241,0,0
+2024/06/03,243,Request 3 - open second user post page,200,OK,Thread Group 1-2,text,true,,2024,146,2,2,https://gorest.co.in/public/v2/users/6943044/posts,242,0,0
+2024/06/03,266,Request 1 - second user,200,OK,Thread Group 1-1,text,true,,2368,133,2,2,https://gorest.co.in/public/v2/users/,266,0,0
+2024/06/03,257,Request 1 - second user,200,OK,Thread Group 1-2,text,true,,2374,133,2,2,https://gorest.co.in/public/v2/users/,256,0,0
+2024/06/03,228,Request 2 - access second user by id = 6943044,200,OK,Thread Group 1-1,text,true,,1078,140,2,2,https://gorest.co.in/public/v2/users/6943044,228,0,0
+2024/06/03,228,Request 2 - access second user by id = 6943044,200,OK,Thread Group 1-2,text,true,,1082,140,2,2,https://gorest.co.in/public/v2/users/6943044,228,0,0
+2024/06/03,251,Request 3 - open second user post page,200,OK,Thread Group 1-1,text,true,,2024,146,2,2,https://gorest.co.in/public/v2/users/6943044/posts,251,0,0
+2024/06/03,245,Request 3 - open second user post page,200,OK,Thread Group 1-2,text,true,,2030,146,2,2,https://gorest.co.in/public/v2/users/6943044/posts,244,0,0
+2024/06/03,279,Request 1 - second user,200,OK,Thread Group 1-1,text,true,,2368,133,2,2,https://gorest.co.in/public/v2/users/,278,0,0
+2024/06/03,234,Request 1 - second user,200,OK,Thread Group 1-2,text,true,,2380,133,2,2,https://gorest.co.in/public/v2/users/,233,0,0
+2024/06/03,238,Request 2 - access second user by id = 6943044,200,OK,Thread Group 1-1,text,true,,1076,140,2,2,https://gorest.co.in/public/v2/users/6943044,238,0,0
+2024/06/03,222,Request 2 - access second user by id = 6943044,200,OK,Thread Group 1-2,text,true,,1080,140,2,2,https://gorest.co.in/public/v2/users/6943044,222,0,0
+2024/06/03,252,Request 3 - open second user post page,200,OK,Thread Group 1-1,text,true,,2028,146,2,2,https://gorest.co.in/public/v2/users/6943044/posts,252,0,0
+2024/06/03,241,Request 3 - open second user post page,200,OK,Thread Group 1-2,text,true,,2024,146,1,1,https://gorest.co.in/public/v2/users/6943044/posts,241,0,0
